@@ -14,7 +14,12 @@ module.exports = [
       },
     },
   },
-  "strapi::cors",
+  {
+    name: "strapi::cors",
+    config: {
+      origin: ["https://suburban-homes.vercel.app"],
+    },
+  },
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
