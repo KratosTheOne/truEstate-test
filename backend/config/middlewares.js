@@ -17,7 +17,10 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
-      origin: ["https://suburban-homes.vercel.app"],
+      origin: [
+        "https://suburban-homes.vercel.app",
+        "https://truestate-backend-9c3uo.ondigitalocean.app",
+      ],
     },
   },
   "strapi::poweredBy",

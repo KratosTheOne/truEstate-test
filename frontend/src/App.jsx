@@ -6,7 +6,7 @@ import useFetch from "./hooks/useFetch";
 
 const App = () => {
   let { loading, data, error } = useFetch(
-    "http://localhost:1337/api/blogs?populate=*"
+    "https://truestate-backend-9c3uo.ondigitalocean.app/api/blogs?populate=*"
   );
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error!</p>;
