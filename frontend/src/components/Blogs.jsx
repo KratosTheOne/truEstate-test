@@ -11,7 +11,7 @@ function Blogs({ blogs }) {
           <div className="h-auto w-80 flex flex-col aspect-auto relative rounded-lg bg-white shadow cursor-pointer">
             <img
               className="w-full h-[200px] object-cover rounded-lg"
-              src={`http://localhost:1337${blog?.attributes?.blogCover?.data?.attributes?.url}`}
+              src={`https://truestate-backend-9c3uo.ondigitalocean.app${blog?.attributes?.blogCover?.data?.attributes?.url}`}
               alt="coverImg"
             />
             <div className="flex flex-col">
