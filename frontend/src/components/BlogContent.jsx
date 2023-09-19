@@ -19,7 +19,7 @@ const BlogContent = ({ blogs }) => {
       <div className="h-full w-[60%] flex flex-col aspect-auto relative">
         <img
           className="w-full h-[500px] object-cover rounded-lg"
-          src={`http://localhost:1337${blog?.attributes?.blogCover?.data?.attributes?.url}`}
+          src={blog?.attributes?.blogCover?.data?.attributes?.url}
           alt="coverImg"
         />
         <div className="flex flex-col">
